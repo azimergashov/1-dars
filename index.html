@@ -4,10 +4,50 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/main.css">
-  <title>SCSS BEM STARTER</title>
+  <link rel="stylesheet" href="./css/main.min.css">
+  <title>uy ishi</title>
 </head>
 <body>
+  <div class=""></div>
+
+  <header >
+    <div class="container">
+      <h1 class="h1 text-center ">Movies catalog</h1>
+      <p class=" alert alert-info">search results: <span class="search__result"></span></p>
+    </div>
+  </header>
+  <main>
+
+    <div class="container">
+
+        <form class="form">
+          <select class="form__select " name="select">
+            <option value="all">All</option>
+          </select>
+
+
+
+          <button class="btn btn-info" type="submit">button</button>
+        </form>
+
+        <ul class="movie__list list-unstyled d-flex flex-wrap justify-content-between m-0 p-0">
+          <!-- <li class="card" style="width: 18rem;">
+            <img class="card-img-top" src="" alt="">
+            <div  class="card-body">
+              <h2 class="card-title"></h2>
+              <p class="card-text ">sss</p>
+                <div class="h-100 my-auto text-center mt-auto pb-0">
+                  <a class="btn btn-info mb-0 m-auto" href="#"> watch trailer</a>
+                </div>
+            </div>
+          </li> -->
+        </ul>
+    </div>
+
+
+
+    <script src="./js/films.js"></script>
+    <script src="./js/index.js"></script>
 
 </body>
 </html>
